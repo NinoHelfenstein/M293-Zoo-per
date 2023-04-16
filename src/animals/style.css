@@ -1,0 +1,35 @@
+.flexbox-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.animal-box{
+    width: 270px;   
+    height: 360px;
+    border: 1px solid black;
+}
+
+.animal-box>img{
+    width: 270px;
+    height: 270px;
+}
+
+.animal-box a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-age-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.name-age-wrapper>h3{
+    margin: 0;
+}
+
