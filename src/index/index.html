@@ -15,27 +15,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../globalstyling.css">
     <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon">
+    <script src="/components/nav.js" type="text/javascript" defer></script>
+    <script src="/components/footer.js" type="text/javascript" defer></script>
 </head>
 
 <body>
     <header>
-        <nav>
-            <a href="/src/index/index.html"><img alt="Logo" src="/assets/logo.png" height="70"></a>
-            <ul>
-                <li><a href="/src/about/about.html">About</a></li>
-                <li><a href="/src/tickets/tickets.html">Tickets</a></li>
-                <li><a href="/src/animals/animals.html">Animals</a>
-                    <ul>
-                        <li><a href="/src/animals/animals.html">View all Animals</a></li>
-                        <li><a href="/src/animals/flog.html">Flog</a></li>
-                        <li><a href="/src/animals/flecko.html">Flecko</a></li>
-                        <li><a href="/src/animals/usain-blob.html">Usain Blob</a></li>
-                        <li><a href="/src/animals/rooster-coleman.html">Rooster Coleman</a></li>
-                        <li><a href="/src/animals/emaeaehnuel-lasker.html">Emäähnuel Lasker</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <zoo-per-nav>
+        </zoo-per-nav>
         <h1><span style="color: #d31f63;">Zoo</span>-per</h1>
         <p>A zoo for big and small. You will only find Ai generated animals in our zoo. Don't feel hesitated to touch them.</p>
         <br>
@@ -49,15 +36,8 @@
             <button><strong>Learn more...</strong></button>
         </section>
     </main>
-    <footer>
-        <hr>
-        <p>
-            <small><a href="">Imprint</a></small>
-            All Rights Reserved
-            <small><a href="">Contact</a></small>
-            <small><a href="">Data protection regulation</a></small>
-        </p>
-    </footer>
+    <zoo-per-footer>
+    </zoo-per-footer>
 </body>
 
 </html>
