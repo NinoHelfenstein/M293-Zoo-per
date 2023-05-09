@@ -8,10 +8,10 @@ class Footer extends HTMLElement {
         <footer>
             <hr>
             <p>
-                <small><a href="">Imprint</a></small>
-                All Rights Reserved
-                <small><a href="">Contact</a></small>
-                <small><a href="">Data protection regulation</a></small>
+                Disclaimer: All content on this website is purely fictional and should be regarded as such. Any resemblance to actual persons, places, or events is entirely coincidental.
+            <p/>
+            <p>
+                <small><a href="/src/contact/contact.html">Contact</a></small>
             </p>
         </footer>
       `;
