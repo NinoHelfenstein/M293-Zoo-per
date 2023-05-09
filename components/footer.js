@@ -1,10 +1,10 @@
 class Footer extends HTMLElement {
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <footer>
             <hr>
             <p>
@@ -15,7 +15,7 @@ class Footer extends HTMLElement {
             </p>
         </footer>
       `;
-    }
+  }
 }
 
 customElements.define("zoo-per-footer", Footer);

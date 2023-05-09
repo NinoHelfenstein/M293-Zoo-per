@@ -1,55 +1,54 @@
-.flexbox-wrapper{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-    flex-wrap: wrap;
+.flexbox-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.animal-box{
-    width: 270px;   
-    height: 360px;
-    border: 1px solid black;
+.animal-box {
+  width: 270px;
+  height: 360px;
+  border: 1px solid black;
 }
 
-.animal-box>img{
-    width: 270px;
-    height: 270px;
+.animal-box > img {
+  width: 270px;
+  height: 270px;
 }
 
-.animal-box a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.animal-box a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.name-age-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 5px;
+.name-age-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
 }
 
-.name-age-wrapper>h3{
-    margin: 0;
+.name-age-wrapper > h3 {
+  margin: 0;
 }
 
-.animal{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-
+.animal {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
 }
 
-.animal img{
-    width: 100%;
+.animal img {
+  width: 100%;
 }
 
-.desc{
-    padding: 5px;
+.desc {
+  padding: 5px;
 }
 
-zoo-per-animal{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+zoo-per-animal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

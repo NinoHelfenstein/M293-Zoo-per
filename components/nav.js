@@ -1,10 +1,10 @@
 class Nav extends HTMLElement {
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    connectedCallback() {
-        this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
         <nav>
             <a href="/src/index/index.html"><img alt="Logo" src="/assets/logo.png" height="70"></a>
             <ul>
@@ -23,7 +23,7 @@ class Nav extends HTMLElement {
             </ul>
         </nav>
       `;
-    }
+  }
 }
 
 customElements.define("zoo-per-nav", Nav);
