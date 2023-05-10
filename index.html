@@ -3,8 +3,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="/assets/logo.png" />
-    <link rel="stylesheet" href="../mvp.css" />
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="stylesheet" href="mvp.css" />
 
     <meta charset="utf-8" />
     <meta name="description" content="My description" />
@@ -12,15 +12,15 @@
 
     <title>Zoo-per</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="../globalstyling.css" />
-    <link rel="shortcut icon" href="/assets/logo.png" type="image/x-icon" />
-    <script src="/components/nav.js" type="text/javascript" defer></script>
-    <script src="/components/footer.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <script src="components/nav.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
   </head>
 
   <body>
     <header>
-      <zoo-per-nav> </zoo-per-nav>
+      <zoo-per-nav root=""> </zoo-per-nav>
       <h1><span style="color: #d31f63">Zoo</span>-per</h1>
       <p>
         A zoo for big and small. You will only find Ai generated animals in our
@@ -42,6 +42,6 @@
         <button><strong>Learn more...</strong></button>
       </section>
     </main>
-    <zoo-per-footer> </zoo-per-footer>
+    <zoo-per-footer root=""> </zoo-per-footer>
   </body>
 </html>

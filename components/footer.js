@@ -1,6 +1,11 @@
 class Footer extends HTMLElement {
-  constructor() {
+  constructor(attributes) {
     super();
+    if (attributes) {
+      Object.keys(attributes).forEach((attr) => {
+        this.setAttribute(attr, attributes[attr]);
+      });
+    }
   }
 
   connectedCallback() {
@@ -11,7 +16,7 @@ class Footer extends HTMLElement {
                 Disclaimer: All content on this website is purely fictional and should be regarded as such. Any resemblance to actual persons, places, or events is entirely coincidental.
             <p/>
             <p>
-                <small><a href="/src/contact/contact.html">Contact</a></small>
+                <small><a href="${this.getAttribute("root")}screens/contact/contact.html">Contact</a></small>
             </p>
         </footer>
       `;
