@@ -46,7 +46,7 @@ M293-Zoo-per
 │   ├── animal.js
 │   ├── footer.js
 │   └── nav.js
-├── src
+├── screens
 │   ├── about
 │   │   └── about.html
 │   ├── animals
@@ -59,16 +59,15 @@ M293-Zoo-per
 │   │   └── usain-blob.html
 │   ├── contact
 │   │   └── contact.html
-│   ├── index
-│   │   ├── index.html
-│   │   └── style.css
-│   ├── tickets
-│   │   ├── style.css
-│   │   └── tickets.html
-│   ├── globalstyling.css
-│   └── mvp.css
+│   └── tickets
+│       ├── style.css
+│       └── tickets.html
 ├── .gitattributes
+├── global.css
+├── index.css
+├── index.html
 ├── LICENSE.md
+├── mvp.css
 ├── README.md
 └── wireframe.jpg
 ```
