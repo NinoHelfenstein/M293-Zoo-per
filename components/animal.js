@@ -11,7 +11,7 @@ class Animal extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <div class="animal">
-          <img src="${this.getAttribute("image")}">
+          <img src="${this.getAttribute("image")}" alt="${this.getAttribute("alt")}">
           <div class="name-age-wrapper">
             <div><b>${this.getAttribute("name")}</b></div>
             <div>${this.getAttribute("age")}</div>
