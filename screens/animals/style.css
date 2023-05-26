@@ -8,12 +8,14 @@
 .animal-box {
   width: 270px;
   height: 360px;
-  border: 1px solid black;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
 
 .animal-box > img {
   width: 270px;
   height: 270px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .animal-box a {
@@ -41,6 +43,7 @@
 
 .animal img {
   width: 100%;
+  border-radius: 5px;
 }
 
 .desc {

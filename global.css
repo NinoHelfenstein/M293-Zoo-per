@@ -46,3 +46,7 @@ nav ul li:hover > ul {
   display: block;
   margin-left: -120px;
 }
+
+nav ul li{
+  text-align: right;
+}
