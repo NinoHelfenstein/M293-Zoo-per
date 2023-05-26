@@ -26,7 +26,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px;
+  padding: 20px 20px 0px 20px;
 }
 
 .name-age-wrapper > h3 {
@@ -44,11 +44,22 @@
 }
 
 .desc {
-  padding: 5px;
+  padding: 20px;
+  text-align: justify;
 }
 
 zoo-per-animal {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.name {
+  font-size: 28px;
+}
+
+.age {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
 }
