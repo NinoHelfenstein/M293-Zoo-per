@@ -3,6 +3,15 @@ th:nth-of-type(2) {
   text-align: left;
 }
 
+td:last-of-type,
+th:last-of-type {
+  text-align: right;
+}
+
 section {
   gap: 20px;
+}
+
+table{
+  height: 100%;
 }
