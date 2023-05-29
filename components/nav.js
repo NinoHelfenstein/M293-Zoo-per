@@ -13,7 +13,9 @@ class Nav extends HTMLElement {
         <nav>
             <a href="${this.getAttribute(
               "root"
-            )}index.html"><img alt="Logo" src="${this.getAttribute("root")}assets/logo.png" height="70"></a>
+            )}index.html"><img alt="Logo" src="${this.getAttribute(
+      "root"
+    )}assets/logo.png" height="70"></a>
             <ul>
                 <li><a href="${this.getAttribute(
                   "root"
