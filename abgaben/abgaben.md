@@ -29,3 +29,5 @@
       - [8eaba12](https://github.com/NinoHelfenstein/M293-Zoo-per/commit/8eaba1282c9662ae22e5216c4d412a34b0b4371b)
       - [0312e47](https://github.com/NinoHelfenstein/M293-Zoo-per/commit/0312e47988d01d38417e6a4bc34b207d235197d9)
       - [b323b10](https://github.com/NinoHelfenstein/M293-Zoo-per/commit/b323b106e3a53c723ea76b71b4133b8f80db4205)
+    - Bei dem w3Validator musste ich nur die Script/Javascript links fixen, dies habe ich dann mit dem commit [4940f4d](https://github.com/NinoHelfenstein/M293-Zoo-per/commit/4940f4d0cf0c95f2956a6218d4df45eb4d761cc0) gemacht.
+    - Für den SpeedInsightTest habe ich nichts mehr gefixxt da ich diesen vorher schon verwendet habe und schon zufrieden war.
